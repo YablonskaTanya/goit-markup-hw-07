@@ -20,35 +20,41 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container mein">
-        <a class="logo" lang="en" href="./index.html">Web<span class="logo-accent">Studio</span></a>
+      <div class="container header-container">
+        <a class="logo" lang="en" href="./index.html"
+          >Web<span class="logo__text logo__text--accent">Studio</span></a
+        >
         <nav class="nav">
-          <ul class="list site-nav">
-            <li class="navigation">
-              <a class="link" href="./index.html">Студія</a>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./index.html ">Студія</a>
             </li>
 
-            <li class="navigation">
-              <a class="link current" href="./portfolio.html">Портфоліо</a>
+            <li class="site-nav__item">
+              <a
+                class="site-nav__link site-nav__link--current"
+                href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
 
-            <li class="navigation">
-              <a class="link" href="#">Контакти</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="list communication">
-          <li class="navigation">
-            <a class="link icon-mail" href="mailto:info@devstudio.com"
-              ><svg class="nav-image" width="16" height="12">
+        <ul class="communications">
+          <li class="communications__item">
+            <a class="communications__link" href="mailto:info@devstudio.com"
+              ><svg class="communications__icon" width="16" height="12">
                 <use href="./images/sprite.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
 
-          <li class="navigation">
-            <a class="link icon-phone" href="tel:+380961111111"
-              ><svg class="nav-image" width="10" height="16">
+          <li class="communications__item">
+            <a class="communications__link" href="tel:+380961111111"
+              ><svg class="communications__icon" width="10" height="16">
                 <use href="./images/sprite.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -63,22 +69,37 @@
         <div class="container">
           <h1 class="title-portfolio visually-hidden">Портфоліо</h1>
           <ul class="list push-portfolio">
-            <li class="push"><button class="button" type="button">Усі</button></li>
-            <li class="push"><button class="button" type="button">Веб-сайти</button></li>
-            <li class="push"><button class="button" type="button">Додатки</button></li>
-            <li class="push"><button class="button" type="button">Дизайн</button></li>
-            <li class="push"><button class="button" type="button">Маркетинг</button></li>
+            <li class="push">
+              <button class="button" type="button">Усі</button>
+            </li>
+            <li class="push">
+              <button class="button" type="button">Веб-сайти</button>
+            </li>
+            <li class="push">
+              <button class="button" type="button">Додатки</button>
+            </li>
+            <li class="push">
+              <button class="button" type="button">Дизайн</button>
+            </li>
+            <li class="push">
+              <button class="button" type="button">Маркетинг</button>
+            </li>
           </ul>
 
           <ul class="list card-portfolio">
             <li class="list-card">
               <a class="list card link-card" href="#">
                 <div class="overlay-card">
-                  <img class="card-image" src="./images/techno.jpg" alt="Технокряк" width="370" />
+                  <img
+                    class="card-image"
+                    src="./images/techno.jpg"
+                    alt="Технокряк"
+                    width="370"
+                  />
                   <p class="modal-card">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
-                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
-                    приватну особу.
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
                 <div class="box-card">
@@ -98,9 +119,9 @@
                     width="370"
                   />
                   <p class="modal-card">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
-                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
-                    приватну особу.
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
                 <div class="box-card">
@@ -121,13 +142,15 @@
                     width="370"
                   />
                   <p class="modal-card">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
-                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
-                    приватну особу.
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
                 <div class="box-card">
-                  <h2 class="portfolio-title">Ресторан <span lang="en">Seafood</span></h2>
+                  <h2 class="portfolio-title">
+                    Ресторан <span lang="en">Seafood</span>
+                  </h2>
                   <p class="portfolio-text">Додаток</p>
                 </div>
               </a>
@@ -135,15 +158,22 @@
             <li class="list-card">
               <a class="list card link-card" href="#">
                 <div class="overlay-card">
-                  <img class="card-image" src="./images/prime.jpg" alt="Проєкт Prime" width="370" />
+                  <img
+                    class="card-image"
+                    src="./images/prime.jpg"
+                    alt="Проєкт Prime"
+                    width="370"
+                  />
                   <p class="modal-card">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
-                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
-                    приватну особу.
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
                 <div class="box-card">
-                  <h2 class="portfolio-title">Проєкт <span lang="en">Prime</span></h2>
+                  <h2 class="portfolio-title">
+                    Проєкт <span lang="en">Prime</span>
+                  </h2>
                   <p class="portfolio-text">Маркетинг</p>
                 </div>
               </a>
@@ -151,15 +181,22 @@
             <li class="list-card">
               <a class="list card link-card" href="#">
                 <div class="overlay-card">
-                  <img class="card-image" src="./images/boxes.jpg" alt="Проєкт Boxe" width="370" />
+                  <img
+                    class="card-image"
+                    src="./images/boxes.jpg"
+                    alt="Проєкт Boxe"
+                    width="370"
+                  />
                   <p class="modal-card">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
-                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
-                    приватну особу.
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
                 <div class="box-card">
-                  <h2 class="portfolio-title">Проєкт <span lang="en">Boxes</span></h2>
+                  <h2 class="portfolio-title">
+                    Проєкт <span lang="en">Boxes</span>
+                  </h2>
                   <p class="portfolio-text">Додаток</p>
                 </div>
               </a>
@@ -174,9 +211,9 @@
                     width="370"
                   />
                   <p class="modal-card">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
-                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
-                    приватну особу.
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
                 <div class="box-card">
@@ -197,13 +234,15 @@
                     width="370"
                   />
                   <p class="modal-card">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
-                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
-                    приватну особу.
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
                 <div class="box-card">
-                  <h2 class="portfolio-title">Видання <span lang="en">Limited Edition</span></h2>
+                  <h2 class="portfolio-title">
+                    Видання <span lang="en">Limited Edition</span>
+                  </h2>
                   <p class="portfolio-text">Дизайн</p>
                 </div>
               </a>
@@ -211,15 +250,22 @@
             <li class="list-card">
               <a class="list card link-card" href="#">
                 <div class="overlay-card">
-                  <img class="card-image" src="./images/lab.jpg" alt="Проєкт LAB" width="370" />
+                  <img
+                    class="card-image"
+                    src="./images/lab.jpg"
+                    alt="Проєкт LAB"
+                    width="370"
+                  />
                   <p class="modal-card">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
-                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
-                    приватну особу.
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
                 <div class="box-card">
-                  <h2 class="portfolio-title">Проєкт <span lang="en">LAB</span></h2>
+                  <h2 class="portfolio-title">
+                    Проєкт <span lang="en">LAB</span>
+                  </h2>
                   <p class="portfolio-text">Маркетинг</p>
                 </div>
               </a>
@@ -234,13 +280,15 @@
                     width="370"
                   />
                   <p class="modal-card">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
-                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
-                    приватну особу.
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
                 <div class="box-card">
-                  <h2 class="portfolio-title">Growing <span lang="en">Business</span></h2>
+                  <h2 class="portfolio-title">
+                    Growing <span lang="en">Business</span>
+                  </h2>
                   <p class="portfolio-text">Додаток</p>
                 </div>
               </a>
@@ -254,7 +302,9 @@
     <footer class="footer">
       <div class="container">
         <div>
-          <a class="logo" href="./index.html">Web<span class="logo-accent">Studio</span></a>
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-accent">Studio</span></a
+          >
           <address class="address">
             <ul class="list">
               <li>
@@ -268,11 +318,15 @@
               </li>
 
               <li class="li-footer">
-                <a class="link link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link link-footer" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
 
               <li class="li-footer">
-                <a class="link link-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="link link-footer" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -315,7 +369,13 @@
           <p class="footer-form-title">Підпишіться на розсилку</p>
           <form class="footer-form">
             <label for="footer-mail"></label>
-            <input class="email" type="email" name="email" id="footer-mail" placeholder="E-mail" />
+            <input
+              class="email"
+              type="email"
+              name="email"
+              id="footer-mail"
+              placeholder="E-mail"
+            />
             <button class="footer-btn-form" type="submit">
               <span class="slogan-btn"> Підписатися</span>
 

@@ -20,35 +20,41 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container mein">
-        <a class="logo" lang="en" href="./index.html">Web<span class="logo-accent">Studio</span></a>
+      <div class="container header-container">
+        <a class="logo" lang="en" href="./index.html"
+          >Web<span class="logo__text logo__text--accent">Studio</span></a
+        >
         <nav class="nav">
-          <ul class="list site-nav">
-            <li class="navigation">
-              <a class="link current" href="./index.html">Студія</a>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a
+                class="site-nav__link site-nav__link--current"
+                href="./index.html"
+                >Студія</a
+              >
             </li>
 
-            <li class="navigation">
-              <a class="link" href="./portfolio.html">Портфоліо</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./portfolio.html">Портфоліо</a>
             </li>
 
-            <li class="navigation">
-              <a class="link" href="#">Контакти</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="list communication">
-          <li class="navigation">
-            <a class="link icon-mail" href="mailto:info@devstudio.com"
-              ><svg class="nav-image" width="16" height="12">
+        <ul class="communications">
+          <li class="communications__item">
+            <a class="communications__link" href="mailto:info@devstudio.com"
+              ><svg class="communications__icon" width="16" height="12">
                 <use href="./images/sprite.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
 
-          <li class="navigation">
-            <a class="link icon-phone" href="tel:+380961111111"
-              ><svg class="nav-image" width="10" height="16">
+          <li class="communications__item">
+            <a class="communications__link" href="tel:+380961111111"
+              ><svg class="communications__icon" width="10" height="16">
                 <use href="./images/sprite.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -59,9 +65,11 @@
 
     <main>
       <!-- Герой -->
-      <section class="hero overlay">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="button" type="button" data-modal-open>Замовити послугу</button>
+      <section class="hero hero--overlay">
+        <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero__button" type="button" data-modal-open>
+          Замовити послугу
+        </button>
       </section>
 
       <!-- Наші особливості -->
@@ -78,7 +86,8 @@
 
               <h3 class="title">Увага до деталей</h3>
               <p class="text">
-                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
               </p>
             </li>
 
@@ -91,7 +100,8 @@
 
               <h3 class="title">Пунктуальність</h3>
               <p class="text">
-                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
               </p>
             </li>
 
@@ -103,7 +113,9 @@
               </div>
 
               <h3 class="title">Планування</h3>
-              <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+              <p class="text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
             </li>
 
             <li class="section-list">
@@ -115,7 +127,8 @@
 
               <h3 class="title">Сучасні технології</h3>
               <p class="text">
-                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
               </p>
             </li>
           </ul>
@@ -128,15 +141,30 @@
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="list work-list">
             <li class="work-card">
-              <img class="card-image" src="./images/box1.jpg" alt="компьютер" width="370" />
+              <img
+                class="card-image"
+                src="./images/box1.jpg"
+                alt="компьютер"
+                width="370"
+              />
               <p class="work-text">Десктопні додатки</p>
             </li>
             <li class="work-card">
-              <img class="card-image" src="./images/box2.jpg" alt="ноутбук" width="370" />
+              <img
+                class="card-image"
+                src="./images/box2.jpg"
+                alt="ноутбук"
+                width="370"
+              />
               <p class="work-text">Мобільні додатки</p>
             </li>
             <li class="work-card">
-              <img class="card-image" src="./images/box3.jpg" alt="планшет" width="370" />
+              <img
+                class="card-image"
+                src="./images/box3.jpg"
+                alt="планшет"
+                width="370"
+              />
               <p class="work-text">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -239,7 +267,12 @@
             </li>
 
             <li class="team-picture">
-              <img class="card-image" src="./images/marketing.jpg" alt="Marketing" width="270" />
+              <img
+                class="card-image"
+                src="./images/marketing.jpg"
+                alt="Marketing"
+                width="270"
+              />
               <div class="box">
                 <h3 class="subtitlt">Микола Тарасов</h3>
                 <p class="desc" lang="en">Marketing</p>
@@ -279,7 +312,12 @@
             </li>
 
             <li class="team-picture">
-              <img class="card-image" src="./images/ui.jpg" alt="UI Designer" width="270" />
+              <img
+                class="card-image"
+                src="./images/ui.jpg"
+                alt="UI Designer"
+                width="270"
+              />
               <div class="box">
                 <h3 class="subtitlt">Михайло Єрмаков</h3>
                 <p class="desc" lang="en">UI Designer</p>
@@ -374,7 +412,9 @@
     <footer class="footer">
       <div class="container">
         <div>
-          <a class="logo" href="./index.html">Web<span class="logo-accent">Studio</span></a>
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-accent">Studio</span></a
+          >
           <address class="address">
             <ul class="list">
               <li>
@@ -388,11 +428,15 @@
               </li>
 
               <li class="li-footer">
-                <a class="link link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link link-footer" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
 
               <li class="li-footer">
-                <a class="link link-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="link link-footer" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -435,7 +479,13 @@
           <p class="footer-form-title">Підпишіться на розсилку</p>
           <form class="footer-form">
             <label for="footer-mail"></label>
-            <input class="email" type="email" name="email" id="footer-mail" placeholder="E-mail" />
+            <input
+              class="email"
+              type="email"
+              name="email"
+              id="footer-mail"
+              placeholder="E-mail"
+            />
             <button class="footer-btn-form" type="submit">
               <span class="slogan-btn"> Підписатися</span>
 
@@ -507,9 +557,13 @@
                   <use href="./images/sprite.svg#check"></use>
                 </svg>
 
-                <span class="check-text"> Погоджуюся з розсилкою та приймаю</span>
+                <span class="check-text">
+                  Погоджуюся з розсилкою та приймаю</span
+                >
 
-                <span> <a class="check-text-after" href="#">Умови договору</a></span>
+                <span>
+                  <a class="check-text-after" href="#">Умови договору</a></span
+                >
               </label>
             </li>
           </ul>
