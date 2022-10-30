@@ -694,7 +694,6 @@ img {
 
 .address {
   margin-top: 20px;
-  margin-right: 70px;
 }
 
 .address__link {
@@ -726,6 +725,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 206px;
+  margin-left: 70px;
 }
 
 .subtitle {
